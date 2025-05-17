@@ -23,6 +23,7 @@ cd Free-Code-Camp
 python "caesar cipher.py"
 ------------------------------------------------------------------------------------------------------------------------------------
 
+#Explanation of the code line by line:
 
 text = 'Hello Zaira' #text we are shifting by 3 spaces
 shift = 3           #normal amount that we shift in a Caesar cipher i.e. A -> D, B ->E, etc. 
@@ -47,3 +48,15 @@ def caesar(message, offset):                   #define a funtion called caesar, 
 
 caesar(text, shift) #calling the function to work and shifting 'Hello Zaira' 
 caesar(text, 13) # shift it by 13 instetad of 3
+
+## Status
+
+✅ **Complete**  
+This project helped me get more comfortable with Python and using Git.  
+It’s a small step, but it represents real learning.
+
+
+Author
+
+Andrew Chan
+GitHub – @chanchanandroo
