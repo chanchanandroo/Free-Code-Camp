@@ -6,7 +6,7 @@ This is following FreeCodeCamp's instructions in building a script that finds th
 
 Download and then bash in the terminal: python bisection_method_squareroot.py
 
-You cana then change the N variable to be different numbers and the function will find the square root whether it's doable or not. If it can't find it, it'll throw an error message. 
+You can then change the N variable to be different numbers and the function will find the square root whether it's doable or not. If it can't find it, it'll throw an error message. 
 
 # Code Walkthrough
 
