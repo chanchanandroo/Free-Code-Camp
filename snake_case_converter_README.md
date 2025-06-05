@@ -10,21 +10,19 @@ Once downloaded, use the terminal and bash in python snake_case_converter.py
 
 Then you can change the print(convert_to_snake_case("change_String_Here)) to play around with the converter.
 
-# Code Breakdown
+#Code Breakdown
 
-def convert_to_snake_case(pascal_or_camel_cased_string): #defining the function and our parameters
-
-    snake_cased_char_list = [ #making a list, inside the list characters are changed to lower case, isupper() is used to detect all uppercase letters 
-        '_' + char.lower() if char.isupper()
-        else char
-        for char in pascal_or_camel_cased_string #we keep the first letter upper case
+def convert_to_snake_case(pascal_or_camel_cased_string):
+    # Make a list, changing uppercase characters to lowercase with an underscore
+    snake_cased_char_list = [
+        '_' + char.lower() if char.isupper() else char
+        for char in pascal_or_camel_cased_string
     ]
-
-    return ''.join(snake_cased_char_list).strip('_') # we convert to snake case with _ in between each letter
+    return ''.join(snake_cased_char_list).strip('_')  # Strip leading underscore
 
 def main():
-    print(convert_to_snake_case('IAmAPascalCasedString')) # print the converted words onto console 
+    print(convert_to_snake_case("IAmAPascalCasedString"))  # Example output
 
-    
+main()  # Call main so it runs
 
-main() #calling main so it works
+
